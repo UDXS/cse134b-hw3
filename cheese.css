@@ -72,7 +72,9 @@ section p {
 input[type="text"] {
     padding: 0.25rem 0.5rem;
     border: 1px solid #ccc;
-    font-family: inherit;
+    font-family: var(--main-font);
+    color: var(--text-color);
+    background-color: var(--bg-color);
     margin-top: 0.5rem;
 }
 
@@ -125,7 +127,8 @@ dt + dd {
 
 /* Form elements */
 fieldset {
-    border: 1px solid #ccc;
+    border: 1px solid var(--accent-color);
+    background-color: var(--highlight-bg);
     padding: 1rem;
     margin-bottom: 1.5rem;
 }
@@ -138,7 +141,8 @@ legend {
 button {
     margin-left: 0.5rem;
     padding: 0.25rem 0.5rem;
-    font-family: inherit;
+    font-family: var(--main-font);
+    color: var(--text-color);
     cursor: pointer;
 }
 
