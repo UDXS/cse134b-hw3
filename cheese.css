@@ -1,8 +1,9 @@
-/* Deployed at: https://example.github.io/cse134b-hw3/cheese.html */
+/* https://udxs.github.io/cse134b-hw3/cheese.html */
 
-/* Note: In production, using a <link> tag in HTML is preferred over @import 
+/* Note: Using a <link> tag in HTML is preferred over @import 
    because it allows the browser to download CSS files in parallel, 
-   improving page load performance. */
+   improving page load performance vs. having to wait for cheese.css 
+   to be loaded first before requesting variables.css. */
 @import url("variables.css");
 
 /* Global reset */
